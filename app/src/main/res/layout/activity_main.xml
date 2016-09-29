@@ -21,7 +21,6 @@
         android:textAppearance="?android:textAppearanceLarge"
         android:textStyle="italic" />
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -35,96 +34,41 @@
 
             <Button
                 android:id="@+id/btn_one"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="15dp"
-                android:background="@android:color/holo_blue_dark"
+                style="@style/myAppsButtonStyle"
                 android:onClick="onButtonClick"
-                android:paddingLeft="35dp"
-                android:paddingRight="35dp"
-                android:text="@string/app_one"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/app_one" />
 
             <Button
                 android:id="@+id/btn_two"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="15dp"
-                android:background="@android:color/holo_blue_dark"
+                style="@style/myAppsButtonStyle"
                 android:onClick="onButtonClick"
-                android:paddingLeft="35dp"
-                android:paddingRight="35dp"
-                android:text="@string/app_two"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/app_two" />
 
             <Button
                 android:id="@+id/btn_three"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="15dp"
-                android:background="@android:color/holo_blue_dark"
+                style="@style/myAppsButtonStyle"
                 android:onClick="onButtonClick"
-                android:paddingLeft="35dp"
-                android:paddingRight="35dp"
-                android:text="@string/app_three"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/app_three" />
 
             <Button
                 android:id="@+id/btn_four"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="15dp"
-                android:background="@android:color/holo_blue_dark"
+                style="@style/myAppsButtonStyle"
                 android:onClick="onButtonClick"
-                android:paddingLeft="35dp"
-                android:paddingRight="35dp"
-                android:text="@string/app_four"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/app_four" />
 
             <Button
                 android:id="@+id/btn_five"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="15dp"
-                android:background="@android:color/holo_blue_dark"
+                style="@style/myAppsButtonStyle"
                 android:onClick="onButtonClick"
-                android:paddingLeft="35dp"
-                android:paddingRight="35dp"
-                android:text="@string/app_five"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/app_five" />
 
             <Button
                 android:id="@+id/btn_six"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="15dp"
-                android:background="@android:color/holo_blue_dark"
+                style="@style/myAppsButtonStyle"
                 android:onClick="onButtonClick"
-                android:paddingLeft="35dp"
-                android:paddingRight="35dp"
-                android:text="@string/app_six"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:text="@string/app_six" />
         </LinearLayout>
 
     </ScrollView>
-
 
 </LinearLayout>
